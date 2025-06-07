@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,10 @@
   },
   "homepage": "https://github.com/Zaphkiel2200/DanielR-Lab08#readme",
   "dependencies": {
-    "firebase": "^11.9.0"
+    "firebase": "^11.9.0",
+    "ts-loader": "^9.5.2",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-plugin": "^1.0.5"
   },
   "devDependencies": {
     "webpack": "^5.99.9",
