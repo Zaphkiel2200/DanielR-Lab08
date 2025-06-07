@@ -1,10 +1,6 @@
 import {
-  getAuth,
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  signOut,
-  onAuthStateChanged
-} from "firebase/auth";
+  getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged
+  } from "firebase/auth";
 import { auth } from "../firebase/firebase-config";
 
 class LoginForm extends HTMLElement {
