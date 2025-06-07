@@ -1,0 +1,27 @@
+{
+  "name": "danielr-lab08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaphkiel2200/DanielR-Lab08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaphkiel2200/DanielR-Lab08/issues"
+  },
+  "homepage": "https://github.com/Zaphkiel2200/DanielR-Lab08#readme",
+  "dependencies": {
+    "firebase": "^11.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
